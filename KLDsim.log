@@ -551,3 +551,153 @@ INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 10:00:43] "GET /get-user/123?extra="hel
 2024-02-06 16:05:14,379.379 werkzeug     INFO     172.16.1.109 - - [06/Feb/2024 16:05:14] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
 2024-02-06 16:05:14,387.387 root         DEBUG    [POST] KLDsim called, user=Jet, seq=20
 2024-02-06 16:05:14,388.388 werkzeug     INFO     172.16.1.109 - - [06/Feb/2024 16:05:14] "[35m[1mPOST http://172.16.1.106:5000/KLDsim HTTP/1.1[0m" 201 -
+2024-02-06 16:46:24,579.579 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.1.106:5000
+2024-02-06 16:46:24,580.580 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+2024-02-06 16:46:24,583.583 werkzeug     INFO      * Restarting with stat
+2024-02-06 16:46:24,822.822 werkzeug     WARNING   * Debugger is active!
+2024-02-06 16:46:24,827.827 werkzeug     INFO      * Debugger PIN: 779-158-392
+2024-02-07 14:30:39,507.507 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.1.106:5000
+2024-02-07 14:30:39,507.507 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+2024-02-07 14:30:39,510.510 werkzeug     INFO      * Restarting with stat
+2024-02-07 14:30:39,690.690 werkzeug     WARNING   * Debugger is active!
+2024-02-07 14:30:39,695.695 werkzeug     INFO      * Debugger PIN: 779-158-392
+2024-02-07 14:30:55,969.969 werkzeug     INFO     127.0.0.1 - - [07/Feb/2024 14:30:55] "[33mPOST /KLDsim HTTP/1.1[0m" 404 -
+2024-02-07 14:31:07,125.125 root         DEBUG    [POST] KLDsim/json called, user=Jet, seq=21
+2024-02-07 14:31:07,126.126 werkzeug     INFO     127.0.0.1 - - [07/Feb/2024 14:31:07] "[35m[1mPOST /KLDsim/json HTTP/1.1[0m" 201 -
+2024-02-07 14:31:33,964.964 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 14:31:33,965.965 werkzeug     INFO     127.0.0.1 - - [07/Feb/2024 14:31:33] "POST /KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 14:33:37,053.053 werkzeug     INFO      * Detected change in 'D:\\Jet\\Github\\ThalesPythonAPI\\main.py', reloading
+2024-02-07 14:33:37,108.108 werkzeug     INFO      * Restarting with stat
+2024-02-07 14:33:37,321.321 werkzeug     WARNING   * Debugger is active!
+2024-02-07 14:33:37,326.326 werkzeug     INFO      * Debugger PIN: 779-158-392
+2024-02-07 14:33:40,635.635 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 14:33:40,635.635 werkzeug     INFO     127.0.0.1 - - [07/Feb/2024 14:33:40] "POST /KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 14:33:50,530.530 werkzeug     INFO      * Detected change in 'D:\\Jet\\Github\\ThalesPythonAPI\\main.py', reloading
+2024-02-07 14:33:50,573.573 werkzeug     INFO      * Restarting with stat
+2024-02-07 14:33:50,774.774 werkzeug     WARNING   * Debugger is active!
+2024-02-07 14:33:50,778.778 werkzeug     INFO      * Debugger PIN: 779-158-392
+2024-02-07 14:33:51,543.543 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 14:33:51,544.544 werkzeug     INFO     127.0.0.1 - - [07/Feb/2024 14:33:51] "POST /KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 14:34:06,005.005 werkzeug     INFO      * Detected change in 'D:\\Jet\\Github\\ThalesPythonAPI\\main.py', reloading
+2024-02-07 14:34:06,046.046 werkzeug     INFO      * Restarting with stat
+2024-02-07 14:34:06,261.261 werkzeug     WARNING   * Debugger is active!
+2024-02-07 14:34:06,266.266 werkzeug     INFO      * Debugger PIN: 779-158-392
+2024-02-07 14:34:07,353.353 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 14:34:07,354.354 werkzeug     INFO     127.0.0.1 - - [07/Feb/2024 14:34:07] "POST /KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 14:34:42,823.823 werkzeug     INFO      * Detected change in 'D:\\Jet\\Github\\ThalesPythonAPI\\main.py', reloading
+2024-02-07 14:34:42,868.868 werkzeug     INFO      * Restarting with stat
+2024-02-07 14:34:43,074.074 werkzeug     WARNING   * Debugger is active!
+2024-02-07 14:34:43,079.079 werkzeug     INFO      * Debugger PIN: 779-158-392
+2024-02-07 14:34:43,957.957 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 14:34:43,957.957 werkzeug     INFO     127.0.0.1 - - [07/Feb/2024 14:34:43] "[35m[1mPOST /KLDsim/rsp HTTP/1.1[0m" 201 -
+2024-02-07 14:34:53,269.269 werkzeug     INFO      * Detected change in 'D:\\Jet\\Github\\ThalesPythonAPI\\main.py', reloading
+2024-02-07 14:34:53,324.324 werkzeug     INFO      * Restarting with stat
+2024-02-07 14:34:53,524.524 werkzeug     WARNING   * Debugger is active!
+2024-02-07 14:34:53,529.529 werkzeug     INFO      * Debugger PIN: 779-158-392
+2024-02-07 14:34:57,319.319 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 14:34:57,320.320 werkzeug     INFO     127.0.0.1 - - [07/Feb/2024 14:34:57] "POST /KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 14:35:19,887.887 werkzeug     INFO      * Detected change in 'D:\\Jet\\Github\\ThalesPythonAPI\\main.py', reloading
+2024-02-07 14:35:19,931.931 werkzeug     INFO      * Restarting with stat
+2024-02-07 14:35:20,121.121 werkzeug     WARNING   * Debugger is active!
+2024-02-07 14:35:20,125.125 werkzeug     INFO      * Debugger PIN: 779-158-392
+2024-02-07 14:35:21,221.221 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 14:35:21,221.221 werkzeug     INFO     127.0.0.1 - - [07/Feb/2024 14:35:21] "POST /KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 14:35:25,223.223 werkzeug     INFO      * Detected change in 'D:\\Jet\\Github\\ThalesPythonAPI\\main.py', reloading
+2024-02-07 14:35:25,268.268 werkzeug     INFO      * Restarting with stat
+2024-02-07 14:35:25,466.466 werkzeug     WARNING   * Debugger is active!
+2024-02-07 14:35:25,470.470 werkzeug     INFO      * Debugger PIN: 779-158-392
+2024-02-07 14:35:26,080.080 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 14:35:26,081.081 werkzeug     INFO     127.0.0.1 - - [07/Feb/2024 14:35:26] "POST /KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 14:36:21,649.649 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 14:36:21,650.650 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 14:36:21] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 14:36:21,664.664 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 14:36:21] "[33mPOST http://172.16.1.106:5000/KLDsim HTTP/1.1[0m" 404 -
+2024-02-07 14:43:08,292.292 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 14:43:08,293.293 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 14:43:08] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 14:43:08,299.299 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 14:43:08,300.300 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 14:43:08] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 14:44:46,664.664 werkzeug     INFO      * Detected change in 'D:\\Jet\\Github\\ThalesPythonAPI\\main.py', reloading
+2024-02-07 14:44:46,714.714 werkzeug     INFO      * Restarting with stat
+2024-02-07 14:44:46,927.927 werkzeug     WARNING   * Debugger is active!
+2024-02-07 14:44:46,932.932 werkzeug     INFO      * Debugger PIN: 779-158-392
+2024-02-07 14:45:11,743.743 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 14:45:11,744.744 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 14:45:11] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 14:45:11,753.753 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 14:45:11,754.754 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 14:45:11] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 15:10:17,583.583 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 15:10:17,583.583 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 15:10:17] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 15:10:17,590.590 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 15:10:17,591.591 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 15:10:17] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 15:26:09,513.513 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 15:26:09,514.514 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 15:26:09] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 15:26:09,519.519 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 15:26:09,520.520 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 15:26:09] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 15:30:09,869.869 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 15:30:09,869.869 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 15:30:09] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 15:30:09,876.876 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 15:30:09,876.876 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 15:30:09] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 15:56:00,322.322 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 15:56:00,324.324 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 15:56:00] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 15:56:00,334.334 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 15:56:00,334.334 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 15:56:00] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 16:26:00,374.374 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 16:26:00,375.375 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 16:26:00] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 16:26:00,381.381 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 16:26:00,381.381 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 16:26:00] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 16:46:25,113.113 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 16:46:25,114.114 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 16:46:25] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 16:46:25,123.123 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 16:46:25,124.124 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 16:46:25] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 16:59:25,870.870 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 16:59:25,871.871 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 16:59:25] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 16:59:25,876.876 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 16:59:25,877.877 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 16:59:25] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 17:04:10,383.383 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 17:04:10,384.384 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:04:10] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 17:04:10,389.389 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 17:04:10,390.390 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:04:10] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 17:06:20,442.442 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 17:06:20,443.443 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:06:20] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 17:06:20,448.448 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 17:06:20,449.449 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:06:20] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 17:21:43,723.723 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 17:21:43,725.725 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:21:43] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 17:21:43,733.733 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 17:21:43,733.733 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:21:43] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 17:24:29,931.931 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 17:24:29,932.932 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:24:29] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 17:24:29,938.938 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 17:24:29,938.938 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:24:29] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 17:31:47,060.060 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 17:31:47,061.061 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:31:47] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 17:31:47,069.069 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 17:31:47,070.070 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:31:47] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 17:34:40,700.700 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 17:34:40,701.701 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:34:40] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 17:34:40,710.710 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 17:34:40,711.711 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:34:40] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 17:39:21,108.108 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 17:39:21,110.110 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:39:21] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 17:39:21,123.123 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 17:39:21,124.124 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:39:21] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 17:44:30,144.144 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 17:44:30,145.145 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:44:30] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 17:44:30,154.154 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 17:44:30,165.165 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:44:30] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 17:50:17,132.132 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 17:50:17,133.133 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:50:17] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 17:50:17,142.142 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 17:50:17,142.142 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:50:17] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 17:53:02,961.961 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 17:53:02,962.962 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:53:02] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 17:53:02,971.971 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 17:53:02,972.972 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:53:02] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -
+2024-02-07 17:57:29,637.637 root         DEBUG    [GET] get-user called, user_id=123, extra=None
+2024-02-07 17:57:29,638.638 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:57:29] "GET http://172.16.1.106:5000/get-user/123 HTTP/1.1" 200 -
+2024-02-07 17:57:29,645.645 root         DEBUG    [POST] KLDsim/rsp called, user=Jet
+2024-02-07 17:57:29,646.646 werkzeug     INFO     172.16.1.109 - - [07/Feb/2024 17:57:29] "POST http://172.16.1.106:5000/KLDsim/rsp HTTP/1.1" 200 -

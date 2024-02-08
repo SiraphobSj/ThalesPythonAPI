@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, make_response
 import logging
 import json
 
@@ -36,7 +36,7 @@ def create_user():
     logging.debug(f"[POST] create-user called")
     return jsonify(data), 201
 
-@app.route("/KLDsim", methods=["POST"])
+@app.route("/KLDsim/json", methods=["POST"])
 def kldsim_post():
     reqData = request.get_json()
 
@@ -49,9 +49,19 @@ def kldsim_post():
         data["seq"] = seq + 1
         json.dump(data, f, indent=4)
 
-    logging.debug(f"[POST] KLDsim called, user={data["requester"]}, seq={seq}")
+    logging.debug(f"[POST] KLDsim/json called, user={data["requester"]}, seq={seq}")
 
     return jsonify(data), 201
+
+@app.route("/KLDsim/rsp", methods=["POST"])
+def kldsim_rsp():
+    reqData = request.get_json()
+    logging.debug(f"[POST] KLDsim/rsp called, user={reqData["username"]}")
+
+    response = make_response("mQIwMFAPMVExYjJjM2QtNGU1ZjZnWBhBQUFBQUFBQUFBRDhEQzk3NEFEMjNFQUFRB1BUTy1TS0lSB1N1cHBvcnRTCjAxMjM0NTY3ODlUEDYzMTAwMDE0MDk5ODUxMDFVAlNFVgMyMDJZEDAzRDhEQzk3NEFEMjNFQUFACTEyMzQ1Njc4OVdAMu7TmeDQRxXnIl5YKYj5JY7Q0A8Ha4eHMtnhKsg4taH34YN5PvkG7tVnNBN/MtqCdyPv+mP/jHvfzfY+O4o55w==", 200)
+    response.mimetype = "text/plain"
+
+    return response
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True, port=5000)
